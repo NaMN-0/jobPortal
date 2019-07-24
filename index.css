@@ -1,0 +1,171 @@
+body{
+
+    margin: 0px;
+    font-family: monospace;
+    background-image: url("bg.jpeg");
+    background-size: 100%;
+}
+
+.header{
+
+    background-color: rgba(0, 91, 190, 0.3);
+    height: 120px;
+
+}
+
+.headerContents{
+
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main{
+
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mainDiv{
+
+    background-color: rgba(10, 91, 190, 0.1);
+    height: 700px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    outline-style: auto;
+
+}
+
+.mainDiv h1{
+
+    font-size: 50px;
+
+}
+
+.mainDiv p{
+
+    font-size: 25px;
+
+}
+
+.mainDiv img{
+
+    height: 200px;
+
+}
+
+.button{
+
+    position: relative;
+    bottom: 10px;
+    background-color: rgba(80, 168, 226, 0.5);
+    opacity: 0.9;
+    width: 300px;
+    height: 80px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(52, 93, 153, 0.5) 3px 3px;
+
+}
+
+.button:hover{
+
+    background-color: rgba(56, 105, 173, 0.7);
+    opacity: 1;
+    cursor: pointer;
+    color: aliceblue;
+
+}
+
+.button p{
+
+    font-size: 40px;
+    margin: auto;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (max-width: 500px){
+
+    .header{
+    
+        height: 60px;
+    
+    }
+    
+    .headerContents{
+    
+        font-size: 20px;
+    
+    }
+    
+    .main{
+    
+        height: 600px;
+        flex-direction: column;
+    
+    }
+    
+    .mainDiv{
+    
+        height: 500px;
+        margin: 10px auto;
+        width: 80%;    
+        padding: 20px;
+    
+    }
+    
+    .mainDiv h1{
+    
+        font-size: 30px;
+    
+    }
+    
+    .mainDiv p{
+    
+        font-size: 15px;
+    
+    }
+    
+    .mainDiv img{
+    
+        height: 100px;
+    
+    }
+    
+    .button{
+    
+        bottom: 10px;
+        width: 150px;
+        height: 40px;
+        margin: 80px auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+       
+    .button p{
+    
+        font-size: 20px;
+        margin: auto;
+    
+    }
+    
+}
