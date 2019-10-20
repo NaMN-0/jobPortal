@@ -31,7 +31,7 @@
             $flag = 1;
 
             if( (empty($_POST['name'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill the name field";
                 $flag = 0;
             }
             else {
@@ -39,7 +39,7 @@
             }
             
             if( (empty($_POST['lastName'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill last name field";
                 $flag = 0;
             }
             else {
@@ -47,7 +47,7 @@
             }
 
             if( (empty($_POST['eMail'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill email field";
                 $flag = 0;
             }
             else {
@@ -55,7 +55,7 @@
             }
 
             if( (empty($_POST['lang1'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill language field";
                 $flag = 0;
             }
             else {
@@ -63,7 +63,7 @@
             }
 
             if( (empty($_POST['lang2'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill language field";
                 $flag = 0;
             }
             else {
@@ -71,7 +71,7 @@
             }
 
             if( (empty($_POST['lang3'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill language field";
                 $flag = 0;
             }
             else {
@@ -79,7 +79,7 @@
             }
 
             if( (empty($_POST['lang4'])) ){
-                $display['error'] = "Please fill all the fields";
+                $display['error'] = "Please fill language field";
                 $flag = 0;
             }
             else {
