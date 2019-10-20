@@ -7,8 +7,6 @@ form 1 php
 
     $display = array("error"=>"", "success"=>"");
 
-    //getting from DB.....
-
     $sql = "SELECT * FROM job";
 
     $result = mysqli_query($conn, $sql);
@@ -23,8 +21,6 @@ form 1 php
     $lang3 = "";
     $lang4 = "";
     $xp = "";
-
-    //putting to DB.....
 
 
     {
@@ -123,15 +119,11 @@ and
             </button>
 
 
-
-
 php form2 
 
 <?php
 
     require("db.php");
-
-    //getting from DB.....
 
         $sql = "SELECT * FROM job";
 
