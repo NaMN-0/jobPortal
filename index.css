@@ -9,7 +9,7 @@ body{
 .header{
 
     background-color: rgba(0, 89, 192, 0.4);
-    height: 120px;
+    height: 130px;
 
 }
 
@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     font-family: monospace;
     text-transform: uppercase;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -27,9 +27,9 @@ body{
 }
 
 .main{
+    display: flex;
 
     height: 805px;
-    display: flex;
     flex-direction: row;
 
 }
@@ -37,7 +37,7 @@ body{
 .mainDiv{
 
     background-color: rgba(13, 87, 197, 0.2);
-    height: 704px;
+    height: 703px;
     margin: auto;
     width: 40%;
     text-align: center;
@@ -75,7 +75,7 @@ body{
     margin: 80px auto;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(52, 93, 153, 0.5) 3px 3px;
+    box-shadow: rgba(50, 92, 150, 0.5) 3px 3px;
 
 }
 
