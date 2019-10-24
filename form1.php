@@ -1,17 +1,11 @@
 <?php
 
     require("db.php");
-
     $display = array("error"=>"", "success"=>"");
 
-    //getting from DB.....
-
     $sql = "SELECT * FROM job";
-
     $result = mysqli_query($conn, $sql);
-
     $details = mysqli_fetch_all($result);
-
     $name = "";
     $lastName = "";
     $eMail = "";
@@ -20,9 +14,6 @@
     $lang3 = "";
     $lang4 = "";
     $xp = "";
-
-    //putting to DB.....
-
 
     {
 
@@ -158,7 +149,7 @@
                 <input class="margin" type="text" name="lastName" value="">            
             </div>                
 
-            <br><br>
+            <br>
 
             <div class="detail">
                 <p class="margin">
@@ -166,12 +157,12 @@
                 </p>
                 <input class="margin" type="email" name="eMail" value="">            
             </div>                
-    
-            <br><br>
 
+            <br>
+            
             <div class="detail">
                 <p class="margin">
-                    Skill
+                    Skill or Language
                 </p>
 
                 <select name="lang1" class="ddLanguage" label="Language" value="">
@@ -191,7 +182,7 @@
 
             <div class="detail">
                 <p class="margin">
-                    Skill
+                    Skill or Language
                 </p>
 
                 <select name="lang2" class="ddLanguage" label="Language" value="">
@@ -210,7 +201,7 @@
             <br><br>
             <div class="detail">
                 <p class="margin">
-                    Skill
+                    Skill or Language
                 </p>
 
                 <select name="lang3" class="ddLanguage" label="Language" value="">
@@ -229,7 +220,7 @@
             <br><br>
             <div class="detail">
                 <p class="margin">
-                    Skill
+                    Skill or Language
                 </p>
 
                 <select name="lang4" class="ddLanguage" label="Language" value="">
