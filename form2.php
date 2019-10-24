@@ -2,17 +2,12 @@
 
     require("db.php");
 
-    //getting from DB.....
 
         $sql = "SELECT * FROM job";
-
         $result = mysqli_query($conn, $sql);
-
         $details = mysqli_fetch_all($result);
-
         $xp = "";
         $skill = "";
-
         $a = array();
 
             if( (isset($_GET['submit'])) ){
@@ -141,15 +136,15 @@
     <div class="mainDiv"
     id = "<?php echo ("id" . $x) ?>">
 
-        <img src="<?php echo "imgs/" . $details[$x-1][10] ?>" alt="NAMAN" class="dp">
+        <img src="<?php echo "imgs/" . $details[$x-1][10] ?>" alt="image" class="dp">
         <h1>
             <?php
-                echo("Name : " . $details[$x-1][1] . ' ' . $details[$x-1][2]);                    
+                echo("Name of the candidate: " . $details[$x-1][1] . ' ' . $details[$x-1][2]);                    
             ?>
         </h1>
         <h1>
             <?php
-                echo("E-Mail : " . $details[$x-1][3]);                    
+                echo("E-Mail id: " . $details[$x-1][3]);                    
             ?>
         </h1>
         <h1>
