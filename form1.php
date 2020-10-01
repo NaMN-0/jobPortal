@@ -254,6 +254,14 @@
 
             </div>                
 
+            <div class="detail">
+                <p class="margin">
+                    Upload CV
+                </p>
+
+            </div>                
+
+            
             <br>
 
             <input type="file" name="img" class="margin size">
